@@ -1,0 +1,62 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Find My Outfit">
+  <meta name="author" content="Nimay, Deep, Jay, Sarthak">
+  <title> Register Here</title>
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+      <h2>Find My Outfit</h2>
+    </div>
+</header>
+
+  <section id="login">
+   <div id="container">
+    <div class="back-image">
+     <h3> Please Enter the Following Details </h3><br>
+      <form name="form" method="post" onsubmit="return LoginValidate()">
+       <div id="email_div">
+        <input type="email" name="id" placeholder="Enter Email ID" class="user">
+        <div id="name_error"></div>
+       </div>
+       <div id="password_div">
+        <input type="password" name="password" placeholder="Create Password" class="pass">
+        <div id="password_error"></div>
+       </div>
+       <label>Select One from Following:</label>
+       <div id="profile_div">
+        <input type="radio" name="profile1" value="admin"  id="Admin"><label for="admin">Admin</label><br>
+        <input type="radio" name="profile2" value="rental"  id="RentalShop"><label for="rental">Rental Shop</label><br>
+        <input type="radio" name="profile3" value="designer"  id="FashionDesigner"><label for="designer">Fashion Designer</label><br>
+        <input type="radio" name="profile4" value="user"  id="Customer"><label for="user">Customer</label><br>
+       <div id="name_error"></div>
+       </div>
+       <div id="collegeID_div">
+        <input type="number" name="CID" placeholder="Enter College ID" class="user">
+        <div id="name_error"></div>
+       </div>
+       <div id="email_div">
+        <input type="email" name="id" placeholder="Enter Email ID" class="user">
+        <div id="name_error"></div
+       </div>
+       <div id="email_div">
+        <input type="email" name="id" placeholder="Enter Email ID" class="user">
+        <div id="name_error"></div>
+       </div>
+
+
+       <div>
+          <input type="submit" name="regbutton" class="button" value="Regiter">
+        </div>
+      </form>
+    </div>
+   </div>
+  </section>
+</body>
+<html>
