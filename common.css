@@ -103,7 +103,7 @@ header a:hover{
   top: -5%;
   z-index: -1;
   display: block;
-  background-image: url('../background.jpg');
+  background-image: url('background.jpg');
   background-size: cover;
   width: 110%;
   height: 110%;
