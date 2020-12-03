@@ -56,34 +56,6 @@ header a:hover{
   margin: 80px;
 }
 
-#mid-section .student-img{
-  text-align: center;
-}
-
-#mid-section .student-img img{
-  width: 350px;
-}
-
-#mid-section .admin-img{
-  float: left;
-  margin-left: 70px;
-  margin-right: 20px;
-}
-
-#mid-section .admin-img img{
-  width:350px;
-}
-
-#mid-section .faculty-img{
-  float: right;
-  margin-left: 20px;
-  margin-right: 70px;
-}
-
-#mid-section .faculty-img img{
-  width:350px;
-}
-
 .icon{
   width: 31%;
   height: 31%;
