@@ -113,16 +113,6 @@ header a:hover{
     margin-right: -100px;
   }
 
-  #mid-section .admin-img,
-  #mid-section .faculty-img,
-  #mid-section .student-img{
-    float:none;
-    text-align:center;
-    width:100%;
-    margin: 0;
-    padding: 0;
-  }
-
   header{
     background-color: #3366FF;
     padding-left: 45px;
