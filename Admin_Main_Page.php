@@ -3,7 +3,6 @@ include_once 'user-session.php';
       if(!isset($_SESSION['username']))
         header("Location: login.php");
 ?>
-
 <html>
 <head>
   <meta charset="UTF-8">
@@ -26,13 +25,13 @@ include_once 'user-session.php';
     <div class="sidebar">
       <ul>
         <li> <a class="sidebar-list-item active" href="#0"> <i class="fas fa-home icon"></i><em>Dashboard</em></a></li>
-        <li> <a class="sidebar-list-item" href="Remove_Profile.html"> <i class="fas fa-user icon"></i><em>Remove Profiles</em></a></li>
-        <li> <a class="sidebar-list-item" href="Eligiblity.html"> <i class="fas fa-tasks icon"></i><em>Eligibility Applications</em></a></li>
-        <li> <a class="sidebar-list-item" href="Backup.html"> <i class="fas fa-calendar icon"></i><em>Backup Credentials</em></a>
+        <li> <a class="sidebar-list-item" href="Remove_Profile.php"> <i class="fas fa-user icon"></i><em>Remove Profiles</em></a></li>
+        <li> <a class="sidebar-list-item" href="Eligiblity.php"> <i class="fas fa-tasks icon"></i><em>Eligibility Applications</em></a></li>
+        <li> <a class="sidebar-list-item" href="Backup.php"> <i class="fas fa-calendar icon"></i><em>Backup Credentials</em></a>
         </li>
-        <li> <a class="sidebar-list-item" href="Compensation.html"> <i class="fas fa-toolbox icon"></i><em>Compensation</em></a>
+        <li> <a class="sidebar-list-item" href="Compensation.php"> <i class="fas fa-toolbox icon"></i><em>Compensation</em></a>
         </li>
-        <li> <a class="sidebar-list-item" href="Complains.html"> <i class="fas fa-comments icon"></i><em>User Complaints</em></a></li>
+        <li> <a class="sidebar-list-item" href="Complains.php"> <i class="fas fa-comments icon"></i><em>User Complaints</em></a></li>
         </li>
       </ul>
     </div>
@@ -40,14 +39,16 @@ include_once 'user-session.php';
       <div class="footer_sign"><input type="submit" name="outbutton" class="button" value="Logout">
       </div>
     </footer>
-<?php
-      if(isset($_POST['outbutton']))
-      {
-        session_unset();
-        session_destroy();
-        header('location: login.php');
-      }
-?>
+    <?php
+         if(isset($_POST['outbutton']))
+          {
+            session_unset();
+            session_destroy();
+            header('location: login.php');
+          }
+    ?>
+
+  </form>
 
  </div>
 </body>
