@@ -41,7 +41,7 @@ a {
 .main-header {
   background-color: #fefefe;
   border-radius: 40px;
-  padding: 10px;
+  padding: 20px;
   width: 100%;
   max-width: 650px;
 
@@ -85,13 +85,14 @@ a {
     background-color: #FF0000;
     width: 100%;
     margin-top: 20px;
-	margin-bottom: 30px;
+    margin-bottom: 30px;
     padding: 10px 10px 10px 10px;
     font-size: 16px;
     font-weight: bold;
     border: 5px;
     border-radius: 500px 500px;
   }
+
 .footer_sign span, a {
   color: #49c1c3;
   text-decoration: none;
@@ -115,8 +116,4 @@ a {
 .header-user {
   font-size: 1.2em;
   color: #3ba8d4;
-}
-
-.header-user > i {
-  padding-right: 10px;
 }
