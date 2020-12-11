@@ -1,7 +1,6 @@
 <?php
 
 include_once 'user-session.php';
-include_once 'database-connect.php';
 include_once 'validations.php';
 
   if(isset($_POST['logbutton'])){
@@ -97,7 +96,7 @@ include_once 'validations.php';
            if(!empty($form_error))
              echo show_error($form_error);
          ?>
-         <p class="reg"><a href="register.html">First Time? Register here</a></p>
+         <p class="reg"><a href="register.php">First Time? Register here</a></p>
 
          <div>
            <input type="submit" name="logbutton" class="button" value="Login">
