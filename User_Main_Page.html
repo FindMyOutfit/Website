@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<?php
+include_once 'user-session.php';
+      if(!isset($_SESSION['username']))
+        header("Location: login.php");
+?>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,6 +21,14 @@
                 <li><a href="#">Logout</a></li>
             </ul>
         </div>
+         <?php
+         if(isset($_POST['outbutton']))
+          {
+            session_unset();
+            session_destroy();
+            header('location: login.php');
+          }
+    ?>
     </header>
     <div class="buttons">
         <ul>
