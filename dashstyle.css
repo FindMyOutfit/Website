@@ -22,15 +22,16 @@ header
 
 }
 
-.bar ul li a
+.bar ul li input
 {
     text-decoration: none;
     color: black;
+    background-color: white;
     padding: 2px;
     border: 1px solid black;
 }
 
-.bar ul li a:hover
+.bar ul li input:hover
 {
     background-color: black;
     color: white;
@@ -44,7 +45,7 @@ header
 
 body
 {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../wardrobe.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(wardrobe.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
