@@ -18,11 +18,11 @@ include_once 'user-session.php';
                 <h1>Find My Outfit</h1>
             </div>
             <ul>
-                <li><a href="#">Logout</a></li>
+                <li><input type="submit" name="logoutbutton" class="button" value="Logout"></li>
             </ul>
         </div>
          <?php
-         if(isset($_POST['outbutton']))
+         if(isset($_POST['logoutbutton']))
           {
             session_unset();
             session_destroy();
