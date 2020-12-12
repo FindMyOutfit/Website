@@ -50,10 +50,10 @@
                     </div>
                 <div class="floatright">
                     <div class="floatleft">
-                        <img src="img/img-profile.jpg" alt="Profile Pic" /></div>
+                        </div>
                     <div class="floatleft marginleft10">
                         <ul class="inline-ul floatleft">
-                            <li>Hello!</li>
+                            
                             
                             <li><a href="logout.php">Logout</a></li>
                         </ul>
