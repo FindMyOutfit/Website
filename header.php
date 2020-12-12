@@ -70,8 +70,7 @@
         <div class="grid_12">
             <ul class="nav main">
                 <li ><a href="addcart.php"><span>Add Product</span></a> </li>
-                <li ><a href="removecart.php"><span>Remove Product</span></a> </li>
-                <li ><a href="viewcart.php"><span>View Products</span></a></li>                
+                <li ><a href="removecart.php"><span>Remove Product</span></a> </li>                
                 <li ><a href="typography.html"><span>Confirm Orders</span></a></li>
 				<li ><a href="charts.html"><span>Update History</span></a></li>
 
