@@ -116,4 +116,4 @@ include_once 'validations.php';
   </body>
 </html>
 
-<script src="IOT/js/login-validation.js"></script>
+<script src="login-validation.js"></script>
