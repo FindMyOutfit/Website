@@ -1,6 +1,7 @@
 <?php
 
 include_once 'user-session.php';
+include_once 'database-connect.php';
 include_once 'validations.php';
 
   if(isset($_POST['logbutton'])){
