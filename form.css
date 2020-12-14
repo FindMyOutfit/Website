@@ -26,20 +26,6 @@ form input {
   justify-content: center;
 }
 
-.input-hour {
-  height: 50px;
-}
-
-#fhourdiv {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#fhourdiv > input {
-  width: 47%;
-}
-
 .main-header .main-form form .input-group input + input {
 	margin-right: 8px;
 }
@@ -54,12 +40,13 @@ form input {
 }
 
 .main-header .main-form form .input-group .checkbox {
-  width: 60px;
+  width:60px;
   height: 30px;
   color: #a6a6a6;
   border: 1px solid #dcdce6;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-left: 10px;
+  margin-bottom: 50px;
 }
 
 .main-header .main-form form .input-group .hour {
@@ -75,15 +62,9 @@ form input {
   color: #FFF;
   font-weight: 700;
   margin: 20px 0 15px 0;
-  display: inline-block;
   text-align: center;
   text-decoration: none;
   font-size: 18px;
   transition: filter 0.2s;
   cursor: pointer;
 }
-
-.button:hover {
-  filter: brightness(90%);
-}
-
