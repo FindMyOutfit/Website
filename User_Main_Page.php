@@ -34,10 +34,10 @@ include_once 'user-session.php';
     </header>
     <div class="buttons">
         <ul>
-             <li><a href="#">Designer Information</a></li>
-             <li><a href="#">Rent Clothes</a></li>
-             <li><a href="#">Order History</a></li>
-             <li><a href="#">Payment Details</a></li>
+             <li><a href="User_Designer.php">Designer Information</a></li>
+             <li><a href="User_Rental.php">Rent Clothes</a></li>
+             <li><a href="User_History_See.php">Order History</a></li>
+             <li><a href="Payment_Information.php">Payment Details</a></li>
         </ul>
     </div>
     <footer id="footer" class="static-footer">
