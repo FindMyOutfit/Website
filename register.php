@@ -43,7 +43,6 @@ include_once 'database-connect.php';
         }
         header("location: login.php");
       }
-
 ?>
 <html>
 <head>
