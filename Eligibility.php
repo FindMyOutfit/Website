@@ -1,7 +1,7 @@
 <?php
 include_once 'user-session.php';
       if(!isset($_SESSION['username']))
-        header("location: login.php");
+        header("location:login.php");
 ?>
 <html>
 <head>
@@ -82,11 +82,12 @@ include_once 'user-session.php';
     </div>
   </div>
 </main>
+<form method="post">
 <footer id="footer" class="static-footer">
   <div class="container">
     <p>Made with <span class="fas fa-heart"></span> by Prof. Ishie Eswar's Students</p>
   </div>
-<div class="footer_sign"><input type="submit" name="outbutton" class="button" value="Logout">
+<div class="footer_sign"><input type="submit" method="post" name="outbutton" class="button" value="Logout">
 </div>
 </footer>
 <?php
@@ -94,8 +95,9 @@ include_once 'user-session.php';
     {
       session_unset();
       session_destroy();
-      header('location: login.php');
+      header('location:login.php');
     }
 ?>
+</form>
 </body>
 </html>
