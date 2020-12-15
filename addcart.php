@@ -1,8 +1,8 @@
 <?php  
 
 
-$link=mysqli_connect("localhost","root","");
-mysqli_select_db($link,"demo");
+$link=mysqli_connect("root","","");
+mysqli_select_db($link,"findmyoutfit");
 
 ?>
 <!DOCTYPE html>
@@ -10,7 +10,7 @@ mysqli_select_db($link,"demo");
     <head>
         <meta charset="UTF-8">
         <title>Add to cart</title>
-        <link rel="stylesheet" href="css/sign.css">
+        <link rel="stylesheet" href="sign.css">
         <script src="js/form.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
