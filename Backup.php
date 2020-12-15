@@ -14,7 +14,7 @@ include_once 'validations.php';
           if(empty($error))
           {
               $emailid = $_POST['username'];
-              $SQLQuery = "INSERT INTO admin (email, backup) VALUES ('$emailid','$backup',)";
+              $SQLQuery = "INSERT INTO safety_credentials (email, backup) VALUES ('$emailid','$backup')";
               $statement = $db->prepare($SQLQuery);
               $statement->execute();
           }
