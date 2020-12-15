@@ -77,6 +77,7 @@ include_once 'validations.php';
     </div>
 </div>
 </main>
+<form method="post">
 <footer id="footer" class="static-footer">
   <div class="container">
     <p>Made with <span class="fas fa-heart"></span> by Prof. Ishie Eswar's Students</p>
@@ -89,9 +90,10 @@ include_once 'validations.php';
     {
       session_unset();
       session_destroy();
-      header('location: login.php');
+      header('location:login.php');
     }
 ?>
+</form>
 </div>
 </body>
 </html>
