@@ -3,9 +3,8 @@ include_once 'user-session.php';
 include_once 'database-connect.php';
 include_once 'validations.php';
 
-
       if(!isset($_SESSION['username']))
-        header("location: login.php");
+        header("location:login.php");
 
 
       if(isset($_POST['Removebutton']))
@@ -101,19 +100,20 @@ include_once 'validations.php';
  </form>
  </div>
  </main>
+ <form method="post">
  <footer id="footer" class="static-footer">
    <div class="container">
      <p>Made with <span class="fas fa-heart"></span> by Prof. Ishie Eswar's Students</p>
    </div>
- <div class="footer_sign"><input type="submit" name="outbutton" class="button" value="Logout">
+ <div class="footer_sign"><input type="submit" name="loutbutton" class="button" value="Logout">
  </div>
 </footer>
 <?php
-    if(isset($_POST['outbutton']))
+    if(isset($_POST['loutbutton']))
      {
        session_unset();
        session_destroy();
-       header('location: login.php');
+       header('location:login.php');
      }
 ?>
  </form>
