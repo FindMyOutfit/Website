@@ -285,6 +285,12 @@ ALTER TABLE `safety_credentials`
   ADD CONSTRAINT `fk_foreign_key_name` FOREIGN KEY (`email`) REFERENCES `admin` (`username`);
   
   --
+-- Database: `demo`
+--
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `loginform`
 --
 
@@ -348,7 +354,6 @@ ALTER TABLE `loginform`
 --
 ALTER TABLE `product`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
-
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
